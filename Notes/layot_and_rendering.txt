@@ -1,0 +1,11 @@
+
+get 'form', to: 'welcome#form', as: 'form'
+
+redirect_to :form
+render "form"          -- can also use string
+
+****
+
+ redirect_to action: 'form'
+
+********************************

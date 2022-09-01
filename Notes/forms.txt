@@ -1,0 +1,1 @@
+rails g model Post title:string body:text author:string

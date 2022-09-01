@@ -10,4 +10,6 @@ class WelcomeController < ApplicationController
   # http://localhost:3000/welcome/form
   def form
   end
+
+  
 end

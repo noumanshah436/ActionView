@@ -1,0 +1,18 @@
+<!-- <%= form_tag url_for(action: 'create'), method: "post" do %>
+
+  <%= label_tag 'Title' %>
+  <%= text_field_tag 'title', @post.title %>
+  <%= label_tag 'Body' %>
+  <%= text_area_tag 'body', @post.body %>
+  <%= label_tag 'Author' %>
+  <%= text_field_tag 'author', @post.author %>
+  <%= submit_tag "Create Post" %>
+
+<% end %> -->
+
+<%= form_for @post do |f| %>
+  <%= f.label :category_name %>
+  <%= f.text_field :category_name %>
+  <%= f.text_field :content %>
+  <%= f.submit %>
+<% end %>
