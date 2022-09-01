@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ACtionView</title>
+    <title>ActionView</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    <%= yield :special_script %>
     <%= yield %>
   </body>
 </html>

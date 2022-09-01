@@ -1,2 +1,31 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<p>Index file</p>
+
+
+
+<p>
+  <%= @date.strftime('%A, %b, %d, %Y')%>
+</p>
+
+<p>
+  <%= formatted_date(@date)%>
+</p>
+
+<%= render_sample_button %>
+
+<br>
+<%= time_ago_in_words(Time.now)  %>
+
+<br>
+<%= image_url("edit.png") %>
+
+<br>
+
+<%= stylesheet_url "application.css"  %>
+
+
+<p>This is a special page.</p>
+
+<% content_for :special_script do %>
+  <h2>Hey this is special script</h2>
+<% end %>
+ 
