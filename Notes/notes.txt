@@ -1,6 +1,0 @@
-
-Layout :
-
-add file (header.html.erb) in views/layouts and
-use layout 'header' in controller will use header file as layout instead of default ( application.html.erb )
-
