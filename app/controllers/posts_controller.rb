@@ -2,6 +2,7 @@ class PostsController < ApplicationController
   def index
   end
 
+  # http://localhost:3000/posts/new
   def new
     @post = Post.new
   end
@@ -11,7 +12,7 @@ class PostsController < ApplicationController
     # puts params[:post]
     # puts params[:post][:author]
 
-    puts params 
+    puts params
     puts params[:title]
   end
 end

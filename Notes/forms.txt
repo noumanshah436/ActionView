@@ -1,7 +1,8 @@
 rails g model Post title:string body:text author:string
 
 **********************************
-
+https://medium.com/@michellekwong2/form-tag-vs-form-for-vs-form-with-fa6e0ac73aac
+**********************************
 
 form_tag generates an HTML form for us and lets you specify options you want for your form.
 We use the rails method, url_for, to create a URL we want the form to submit to. This request for making a new post would have a URL of /posts and let Rails know the specific controller this URL is going to be for.
