@@ -1,8 +1,9 @@
 class ArticlesController < ApplicationController
 
+
   # http://localhost:3000/articles
   def index
-    @articles = Article.all
+    @articles = Article.all.page(params[:page])
   end
 
 
