@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get 'form_controller/index'
-  get 'form_controller/new'
-  post 'form_controller/create'
+  # get 'posts/index'
+  # get 'posts/new'
+  # get 'posts/create'
+
+  resources :posts
 
   get 'renderings/index'
   get 'renderings/show'

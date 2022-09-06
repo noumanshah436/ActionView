@@ -1,8 +1,7 @@
-class FormControllerController < ApplicationController
+class PostsController < ApplicationController
   def index
   end
 
-  # 'form_controller/new'
   def new
     @post = Post.new
   end
